@@ -1,0 +1,175 @@
+/* 导航栏样式 */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  padding: 10px 15px !important;
+
+}
+
+.ftco-navbar-light {
+  background: #fff !important;
+  z-index: 3;
+  padding: 0;
+  -webkit-box-shadow: 0px 5px 20px -17px rgba(0, 0, 0, 0.34);
+  -moz-box-shadow: 0px 5px 20px -17px rgba(0, 0, 0, 0.34);
+  box-shadow: 0px 5px 20px -17px rgba(0, 0, 0, 0.34);
+}
+
+/* Hero区域样式 */
+.hero-wrap {
+  width: 100%;
+  height: 100%;
+  position: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.hero-wrap .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: '';
+  opacity: .5;
+  background: #207dff;
+  background: -moz-linear-gradient(45deg, #207dff 0%, #00bd55 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, #207dff), color-stop(100%, #00bd55));
+  background: -webkit-linear-gradient(45deg, #207dff 0%, #00bd55 100%);
+  background: -o-linear-gradient(45deg, #207dff 0%, #00bd55 100%);
+  background: -ms-linear-gradient(45deg, #207dff 0%, #00bd55 100%);
+  background: linear-gradient(45deg, #207dff 0%, #00bd55 100%);
+}
+
+/* 联系信息卡片 */
+.dbox {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.dbox .icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #00bd56;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.dbox .icon span {
+  font-size: 20px;
+  color: #fff;
+}
+
+.dbox .text {
+  width: 100%;
+}
+
+.dbox p {
+  margin-bottom: 0;
+}
+
+.dbox p span {
+  font-weight: 500;
+  color: #000000;
+}
+
+.dbox p a {
+  color: #00bd56;
+}
+
+/* 联系表单 */
+.contact-wrap {
+  background: #fff;
+}
+
+.contactForm .label {
+  color: #00bd56 !important;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.contactForm .form-control {
+  height: 36px;
+  background: #fff;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  border-radius: 2px;
+  box-shadow: none !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.contactForm textarea.form-control {
+  height: inherit !important;
+}
+
+/* 页脚样式 */
+.footer {
+  background: #1a1a1a;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  padding: 7em 0;
+}
+
+/* 加载动画 */
+#ftco-loader {
+  position: fixed;
+  width: 96px;
+  height: 96px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 24px 64px rgba(0, 0, 0, 0.24);
+  border-radius: 16px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .2s ease-out, visibility 0s linear .2s;
+  z-index: 1000;
+}
+
+/* 动画类 */
+.ftco-animate {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* 通用样式 */
+.btn {
+  padding: 12px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: none !important;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.btn-primary {
+  background: #00bd56;
+  border: 1px solid #00bd56;
+  color: #fff;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
+
+.p-4 {
+  padding: 1.5rem !important;
+}
+
+.p-5 {
+  padding: 3rem !important;
+} 
